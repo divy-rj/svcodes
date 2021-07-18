@@ -1,0 +1,3 @@
+C:/Users/Divyr/OneDrive/Desktop/summervacation codes/cmake-build-debug/CMakeFiles/summervacation_codes.dir
+C:/Users/Divyr/OneDrive/Desktop/summervacation codes/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Divyr/OneDrive/Desktop/summervacation codes/cmake-build-debug/CMakeFiles/rebuild_cache.dir
