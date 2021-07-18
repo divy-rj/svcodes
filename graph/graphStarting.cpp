@@ -18,10 +18,10 @@ public:
     void print(int data[],int sv){
         cout<<sv<<" "<<endl;
         data[sv]=1;
-        for (int i = 0; i < this->n; ++i) {
+        for (int i = 0; i < n; ++i) {
             if (i==sv)
                 continue;
-            if (this->edges[sv][i]){
+            if (edges[sv][i]){
                 if(data[i])
                     continue;
                 else{

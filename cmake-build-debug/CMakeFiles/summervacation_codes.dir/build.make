@@ -75,27 +75,27 @@ include CMakeFiles/summervacation_codes.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/summervacation_codes.dir/flags.make
 
-CMakeFiles/summervacation_codes.dir/graph/bfs.cpp.obj: CMakeFiles/summervacation_codes.dir/flags.make
-CMakeFiles/summervacation_codes.dir/graph/bfs.cpp.obj: ../graph/bfs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Divyr\OneDrive\Desktop\summervacation codes\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/summervacation_codes.dir/graph/bfs.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\summervacation_codes.dir\graph\bfs.cpp.obj -c "C:\Users\Divyr\OneDrive\Desktop\summervacation codes\graph\bfs.cpp"
+CMakeFiles/summervacation_codes.dir/graph/graphStarting.cpp.obj: CMakeFiles/summervacation_codes.dir/flags.make
+CMakeFiles/summervacation_codes.dir/graph/graphStarting.cpp.obj: ../graph/graphStarting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Divyr\OneDrive\Desktop\summervacation codes\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/summervacation_codes.dir/graph/graphStarting.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\summervacation_codes.dir\graph\graphStarting.cpp.obj -c "C:\Users\Divyr\OneDrive\Desktop\summervacation codes\graph\graphStarting.cpp"
 
-CMakeFiles/summervacation_codes.dir/graph/bfs.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/summervacation_codes.dir/graph/bfs.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Divyr\OneDrive\Desktop\summervacation codes\graph\bfs.cpp" > CMakeFiles\summervacation_codes.dir\graph\bfs.cpp.i
+CMakeFiles/summervacation_codes.dir/graph/graphStarting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/summervacation_codes.dir/graph/graphStarting.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Divyr\OneDrive\Desktop\summervacation codes\graph\graphStarting.cpp" > CMakeFiles\summervacation_codes.dir\graph\graphStarting.cpp.i
 
-CMakeFiles/summervacation_codes.dir/graph/bfs.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/summervacation_codes.dir/graph/bfs.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Divyr\OneDrive\Desktop\summervacation codes\graph\bfs.cpp" -o CMakeFiles\summervacation_codes.dir\graph\bfs.cpp.s
+CMakeFiles/summervacation_codes.dir/graph/graphStarting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/summervacation_codes.dir/graph/graphStarting.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Divyr\OneDrive\Desktop\summervacation codes\graph\graphStarting.cpp" -o CMakeFiles\summervacation_codes.dir\graph\graphStarting.cpp.s
 
 # Object files for target summervacation_codes
 summervacation_codes_OBJECTS = \
-"CMakeFiles/summervacation_codes.dir/graph/bfs.cpp.obj"
+"CMakeFiles/summervacation_codes.dir/graph/graphStarting.cpp.obj"
 
 # External object files for target summervacation_codes
 summervacation_codes_EXTERNAL_OBJECTS =
 
-summervacation_codes.exe: CMakeFiles/summervacation_codes.dir/graph/bfs.cpp.obj
+summervacation_codes.exe: CMakeFiles/summervacation_codes.dir/graph/graphStarting.cpp.obj
 summervacation_codes.exe: CMakeFiles/summervacation_codes.dir/build.make
 summervacation_codes.exe: CMakeFiles/summervacation_codes.dir/linklibs.rsp
 summervacation_codes.exe: CMakeFiles/summervacation_codes.dir/objects1.rsp

@@ -141,32 +141,32 @@ summervacation_codes/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\summervacation_codes.dir\build.make CMakeFiles/summervacation_codes.dir/build
 .PHONY : summervacation_codes/fast
 
-graph/bfs.obj: graph/bfs.cpp.obj
+graph/graphStarting.obj: graph/graphStarting.cpp.obj
 
-.PHONY : graph/bfs.obj
+.PHONY : graph/graphStarting.obj
 
 # target to build an object file
-graph/bfs.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\summervacation_codes.dir\build.make CMakeFiles/summervacation_codes.dir/graph/bfs.cpp.obj
-.PHONY : graph/bfs.cpp.obj
+graph/graphStarting.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\summervacation_codes.dir\build.make CMakeFiles/summervacation_codes.dir/graph/graphStarting.cpp.obj
+.PHONY : graph/graphStarting.cpp.obj
 
-graph/bfs.i: graph/bfs.cpp.i
+graph/graphStarting.i: graph/graphStarting.cpp.i
 
-.PHONY : graph/bfs.i
+.PHONY : graph/graphStarting.i
 
 # target to preprocess a source file
-graph/bfs.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\summervacation_codes.dir\build.make CMakeFiles/summervacation_codes.dir/graph/bfs.cpp.i
-.PHONY : graph/bfs.cpp.i
+graph/graphStarting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\summervacation_codes.dir\build.make CMakeFiles/summervacation_codes.dir/graph/graphStarting.cpp.i
+.PHONY : graph/graphStarting.cpp.i
 
-graph/bfs.s: graph/bfs.cpp.s
+graph/graphStarting.s: graph/graphStarting.cpp.s
 
-.PHONY : graph/bfs.s
+.PHONY : graph/graphStarting.s
 
 # target to generate assembly for a file
-graph/bfs.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\summervacation_codes.dir\build.make CMakeFiles/summervacation_codes.dir/graph/bfs.cpp.s
-.PHONY : graph/bfs.cpp.s
+graph/graphStarting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\summervacation_codes.dir\build.make CMakeFiles/summervacation_codes.dir/graph/graphStarting.cpp.s
+.PHONY : graph/graphStarting.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... summervacation_codes
-	@echo ... graph/bfs.obj
-	@echo ... graph/bfs.i
-	@echo ... graph/bfs.s
+	@echo ... graph/graphStarting.obj
+	@echo ... graph/graphStarting.i
+	@echo ... graph/graphStarting.s
 .PHONY : help
 
 
