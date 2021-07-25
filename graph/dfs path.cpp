@@ -2,7 +2,7 @@
 
 using namespace std;
 vector<int> s;
-
+bool  found = false;
 class graph {
 public:
     int n;
@@ -18,24 +18,19 @@ public:
         data = new int[n];
 
     }
-
-    void print(int data[], int sv) {
-        bfs(data, sv)
-        int i = 0;
-        while (i <= n) {
-            if (data[i] == 0) {
-                bfs(data, sv);
-                i = 0;
-            }
-            i++;
+    void dfs(int data[], int sv,int end) {
+        if (found)
+            return;
+        if (sv==end && !found){
+            data[sv]=1;
+            s.push_back(sv);
+          //  cout<<sv<<" "<<found;
+            found= true;
+            return;
         }
-
-
-    }
-
-    void dfs(int data[], int sv) {
-        cout << sv << "  2  " << endl;
         data[sv] = 1;
+     //   cout<<sv<<" "<<found;
+        s.push_back(sv);
         for (int i = 0; i < n; ++i) {
 
             if (edges[sv][i]) {
@@ -44,8 +39,8 @@ public:
                 if (data[i])
                     continue;
                 else {
-                    s.push_back(i);
-                    print(data, i);
+                    dfs(data, i,end);
+
                 }
             }
         }
@@ -76,8 +71,16 @@ int main() {
     for (int k = 0; k < i; ++k) {
         g1.data[k] = 0;
     }
-
-    g1.print(g1.data, 0);
+    cout<<"Enter vertices to find path"<<endl;
+    int x1,x2;
+    cin>>x1>>x2;
+    g1.dfs(g1.data, x1,x2);
+    if (found)
+        for(int&u:s){
+            cout<<u<<" ";
+        }
+    else
+        cout<<"Not found";
 
 }
 //

@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Divyr/OneDrive/Desktop/summervacation codes/graph/bfs.cpp">
+		<Unit filename="C:/Users/Divyr/OneDrive/Desktop/summervacation codes/graph/prims&apos;s algorithm.cpp">
 			<Option target="summervacation_codes"/>
 		</Unit>
 		<Unit filename="C:/Users/Divyr/OneDrive/Desktop/summervacation codes/CMakeLists.txt">

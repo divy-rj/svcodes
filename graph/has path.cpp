@@ -23,7 +23,7 @@ public:
             q.pop();
             if(!data[i])
             {
-                cout<<i<<" parent : ";
+               cout<<i<<" ";
                 data[i]=1;
             }
             for (int j = 0; j < n; ++j) {
@@ -70,7 +70,6 @@ int main() {
     for (int k = 0; k < i; ++k) {
         pass[k]=0;
     }
-    //g1.print(pass,0);
     cout<<"Enter vertices to find path"<<endl;
     int x1,x2;
     cin>>x1>>x2;

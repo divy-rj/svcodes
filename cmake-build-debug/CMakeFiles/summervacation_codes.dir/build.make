@@ -52,10 +52,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -75,27 +75,27 @@ include CMakeFiles/summervacation_codes.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/summervacation_codes.dir/flags.make
 
-CMakeFiles/summervacation_codes.dir/graph/bfs.cpp.obj: CMakeFiles/summervacation_codes.dir/flags.make
-CMakeFiles/summervacation_codes.dir/graph/bfs.cpp.obj: ../graph/bfs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Divyr\OneDrive\Desktop\summervacation codes\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/summervacation_codes.dir/graph/bfs.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\summervacation_codes.dir\graph\bfs.cpp.obj -c "C:\Users\Divyr\OneDrive\Desktop\summervacation codes\graph\bfs.cpp"
+CMakeFiles/summervacation_codes.dir/graph/prims's_algorithm.cpp.obj: CMakeFiles/summervacation_codes.dir/flags.make
+CMakeFiles/summervacation_codes.dir/graph/prims's_algorithm.cpp.obj: ../graph/prims's\ algorithm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Divyr\OneDrive\Desktop\summervacation codes\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/summervacation_codes.dir/graph/prims's_algorithm.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles\summervacation_codes.dir\graph\prims's_algorithm.cpp.obj" -c "C:\Users\Divyr\OneDrive\Desktop\summervacation codes\graph\prims's algorithm.cpp"
 
-CMakeFiles/summervacation_codes.dir/graph/bfs.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/summervacation_codes.dir/graph/bfs.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Divyr\OneDrive\Desktop\summervacation codes\graph\bfs.cpp" > CMakeFiles\summervacation_codes.dir\graph\bfs.cpp.i
+CMakeFiles/summervacation_codes.dir/graph/prims's_algorithm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/summervacation_codes.dir/graph/prims's_algorithm.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Divyr\OneDrive\Desktop\summervacation codes\graph\prims's algorithm.cpp" > "CMakeFiles\summervacation_codes.dir\graph\prims's_algorithm.cpp.i"
 
-CMakeFiles/summervacation_codes.dir/graph/bfs.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/summervacation_codes.dir/graph/bfs.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Divyr\OneDrive\Desktop\summervacation codes\graph\bfs.cpp" -o CMakeFiles\summervacation_codes.dir\graph\bfs.cpp.s
+CMakeFiles/summervacation_codes.dir/graph/prims's_algorithm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/summervacation_codes.dir/graph/prims's_algorithm.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Divyr\OneDrive\Desktop\summervacation codes\graph\prims's algorithm.cpp" -o "CMakeFiles\summervacation_codes.dir\graph\prims's_algorithm.cpp.s"
 
 # Object files for target summervacation_codes
 summervacation_codes_OBJECTS = \
-"CMakeFiles/summervacation_codes.dir/graph/bfs.cpp.obj"
+"CMakeFiles/summervacation_codes.dir/graph/prims's_algorithm.cpp.obj"
 
 # External object files for target summervacation_codes
 summervacation_codes_EXTERNAL_OBJECTS =
 
-summervacation_codes.exe: CMakeFiles/summervacation_codes.dir/graph/bfs.cpp.obj
+summervacation_codes.exe: CMakeFiles/summervacation_codes.dir/graph/prims's_algorithm.cpp.obj
 summervacation_codes.exe: CMakeFiles/summervacation_codes.dir/build.make
 summervacation_codes.exe: CMakeFiles/summervacation_codes.dir/linklibs.rsp
 summervacation_codes.exe: CMakeFiles/summervacation_codes.dir/objects1.rsp
