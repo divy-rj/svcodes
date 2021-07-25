@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Divyr/OneDrive/Desktop/summervacation codes/graph/graphStarting.cpp" "C:/Users/Divyr/OneDrive/Desktop/summervacation codes/cmake-build-debug/CMakeFiles/summervacation_codes.dir/graph/graphStarting.cpp.obj"
+  "C:/Users/Divyr/OneDrive/Desktop/summervacation codes/graph/prims's algorithm.cpp" "C:/Users/Divyr/OneDrive/Desktop/summervacation codes/cmake-build-debug/CMakeFiles/summervacation_codes.dir/graph/prims's_algorithm.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,58 +1,31 @@
-#include <bits/stdc++.h>
-
+#include <iostream>
 
 using namespace std;
-void swap(int&i,int&j){
-    int temp=i;
-    i=j;
-    j=temp;
+void pt(int **input){
+    for (int j = 0; j < 4; ++j) {
+        for (int l = 0; l < 4; ++l) {
+            cout<<j<<" "<<l<<" "<<input[j][l];
+        }
+        cout<<endl;
+    }
 
 }
-void *quicksort(int s, int l, int arr[]) {
-    if (l == 1)
-        return arr;
-    int p = s;
-    int i, j;
-    i = s + 1;
-    j = s + l - 1;
-    bool sw = true;
-    while (sw) {
-        sw= false;
-        while (i<s+l&&i<=j){
-            if (arr[i]>arr[p]){
-                break;
-            }
-            i++;
+int main(){
+    int a,b,v=4,x,y,z;
+    int input[v][v];
+    for (int j = 0; j < v; ++j) {
+        for (int l = 0; l < v; ++l) {
+            input[j][l]=0;
         }
-        while (j>s){
-            if (arr[j]<arr[p])
-                break;
-            j--;
-        }
-        if(i<j){
-            swap(arr[i],arr[j]);
-            sw= true;
-        } else{
-            swap(arr[s],arr[j]);
-            sw= false;
-            p=j;
-        }
+
     }
-    for (int k = 0; k < 7; ++k) {
-        cout<<arr[k]<<"   ";
+    cout<<"Enter number of edges "<<endl;
+
+    cout<<"Enter edges : ";
+    for (int i = 0; i < 4; ++i) {
+        cin>>x>>y>>z;
+        input[x][y]=z;
+        input[y][x]=z;
     }
-    j=l-j-1;
-    quicksort(s,j,arr);
-    quicksort(s+j+1,l,arr);
-
-
-
-}
-
-int main() {
-    int arr[]={11,15,5,7,13,1,19};
-    cout<<"Sorting";
-    quicksort(0,7,arr);
-
-    return 0;
+    pt(input);
 }

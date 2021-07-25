@@ -2,7 +2,9 @@
 
 using namespace std;
 class graph;
+vector<int>s;
 queue<int>q;
+bool found= false;
 class graph {
 public:
     int n;
@@ -16,14 +18,27 @@ public:
         }
 
     }
-    void print(int data[],int sv){
+    void print(int data[],int sv,int end){
+        if (sv==end)
+        {   s.push_back(sv);
+            found= true;
+            return;
+        }
         q.push(sv);
         while (!q.empty()){
+            if (found)
+                break;
             int i=q.front();
             q.pop();
+            if(!data[i]&&i==end)
+            {   found= true;
+                s.push_back(i);
+                data[i]=1;
+                return;
+            }
             if(!data[i])
             {
-                cout<<i<<" parent : ";
+               s.push_back(i);
                 data[i]=1;
             }
             for (int j = 0; j < n; ++j) {
@@ -34,9 +49,14 @@ public:
                     if (data[j])
                         continue;
                     else{
-                        cout<<j<<" ";
+                        s.push_back(j);
                         data[j]=1;
                         q.push(j);
+                        if (j==end)
+                        {
+                            found= true;
+                            return;
+                        }
                     }
                 }
             }
@@ -74,10 +94,12 @@ int main() {
     cout<<"Enter vertices to find path"<<endl;
     int x1,x2;
     cin>>x1>>x2;
-    g1.print(pass,x1);
-    if(pass[x2])
-        cout<<"path found";
+    g1.print(pass,x1,x2);
+    if (found)
+        for(int&u:s){
+            cout<<u<<" ";
+        }
     else
-        cout<<"Not";
+        cout<<"Not found";
 
 }
